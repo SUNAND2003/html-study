@@ -1,0 +1,59 @@
+        .Reg-form {
+            background-image: url("https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?_gl=1*jf16g8*_ga*MTE0NDE3MzM1OS4xNzQ5NzExMDM2*_ga_8JE65Q40S6*czE3NTAyNjE4ODUkbzYkZzEkdDE3NTAyNjIyMTckajU5JGwwJGgw");
+            padding: 15px;
+            padding-bottom: 50px;
+            border: 1px solid rgb(183, 16, 18);
+            border-radius: 20px;
+            text-align: center;
+
+
+        }
+
+        .Reg-form h1 {
+            text-align: center;
+            color: rgb(27, 24, 24);
+            padding-bottom: 20px;
+
+        }
+
+        .Reg-form input[type],
+        .Reg-form textarea {
+            border-radius: 8px;
+            border: 1px solid black;
+            padding: 10px 30px;
+            width: 50%;
+            margin-bottom: 20px;
+
+
+        }
+
+
+        .Reg-form input[type]::placeholder,
+        .Reg-form textarea::placeholder {
+            color: rgb(91, 93, 94);
+            letter-spacing: 1.5px;
+            font-weight: 500;
+
+        }
+
+        .Reg-form input[type]:focus,
+        .Reg-form textarea:focus {
+            outline: #221689;
+            border: 4px solid rgb(76, 64, 207);
+        }
+
+        .Reg-form button {
+            height: 40px;
+            width: 100px;
+            font-size: 24px;
+            font-weight: 600;
+            border-radius: 10px;
+            background-color: rgb(8, 11, 14);
+            color: azure;
+        }
+
+        .Reg-form button:hover {
+            transform: matrix3d();
+
+            background-color: red;
+        }

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <style>
+    body {
+      background-color: #f3f3f3;
+      font-family: Arial, sans-serif;
+    }
+
+    .Reg-form {
+      padding: 20px;
+      border: 1px solid rgb(183, 16, 18);
+      border-radius: 20px;
+      text-align: center;
+      max-width: 600px;
+      background: rgb(232, 232, 230);
+      margin: 40px auto;
+      position: relative;
+      z-index: 99;
+    }
+
+    .Reg-form h1 {
+      color: rgb(27, 24, 24);
+      margin-bottom: 20px;
+    }
+
+    .Reg-form input[type="text"],
+    .Reg-form input[type="tel"],
+    .Reg-form input[type="email"],
+    .Reg-form textarea {
+      border-radius: 8px;
+      border: 1px solid black;
+      padding: 10px 20px;
+      width: 80%;
+      margin-bottom: 15px;
+      font-size: 16px;
+    }
+
+    .Reg-form input::placeholder,
+    .Reg-form textarea::placeholder {
+      color: rgb(91, 93, 94);
+      letter-spacing: 1.5px;
+      font-weight: 500;
+    }
+
+    .Reg-form input:focus,
+    .Reg-form textarea:focus {
+      outline: none;
+      border: 2px solid rgb(76, 64, 207);
+    }
+
+    .Reg-form button {
+      height: 40px;
+      width: 120px;
+      font-size: 18px;
+      font-weight: 600;
+      border-radius: 10px;
+      background-color: rgb(8, 11, 14);
+      color: azure;
+      cursor: pointer;
+      border: none;
+    }
+
+    .Reg-form button:hover {
+      background-color: red;
+    }
+
+    /* Optional background using ::after */
+    .Reg-form::after {
+      content: "";
+      background-image: url("https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg");
+      background-position: center;
+      background-size: cover;
+      opacity: 0.4;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: -8;
+      border-radius: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <form action="#" class="Reg-form">
+    <h1>Registration Form</h1>
+
+    <input type="text" placeholder="Enter your first name" required><br>
+    <input type="text" placeholder="Enter your last name" required><br>
+    <input type="tel" placeholder="Enter your contact number" required><br>
+    <input type="email" placeholder="Enter your email" required><br>
+
+    <textarea rows="6" placeholder="Enter your message" required></textarea><br>
+
+    <button type="submit">Submit</button>
+  </form>
+
+</body>
+
+</html>
