@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+// Loop statment
+
+document.write("Loop statments" + "<br/>");
+
+
+// for ,
+// while ,
+// do while ,
+// break ,
+// continue 
+
+
+
+for (let i = 5; i <= 10; i++) {
+    document.write("count:", i + "<br>")
+}
+
+let i = 0;
+while (i <= 5) {
+    document.write("hello:", i + "<br>");
+    i++;
+}
+
+
+let x = 1
+do {
+    document.write("do:", x + "<br>");
+    x++;
+} while (x <= 5)
+
+
+
+for (let i = 1; i <= 10; i++) {
+    if (i >= 4){
+        break;
+    }
+    document.write("count:", i + "<br>")
+}
+
+for (let i = 1; i <= 10; i++) {
+    if (i === 4){
+        continue;
+    }
+    document.write("continue:", i + "<br>")
+}
+
+
+
+// String Methode
+
+let a = "Mohsin";
+
+    document.write(a + "<br>")
+    document.write(a.length + "<br>")
+    document.write(a.toUpperCase() + "<br>")
+    document.write(a.toLowerCase() + "<br>")
+    let b= a.trim();
+    document.write(b.length + "<br>")
+    document.write(a.indexOf("o") + "<br>")
+    document.write(a.includes("H") + "<br>")
+    document.write(a.replace("o" , "u") + "<br>")
+
+
+// Math Methode
+
+
+let price = 99.352;
+
+  document.write("Math.round: " + Math.round(price) + "<br>"); 
+  document.write("Math.ceil: " + Math.ceil(price) + "<br>");
+  document.write("Math.floor: " + Math.floor(price) + "<br>");
+  document.write("Math.max: " + Math.max(price, 100, 120) + "<br>");
+  document.write("Math.min: " + Math.min(price, 50, 10) + "<br>");
+  document.write("Math.random (0-1): " + Math.random() + "<br>");
+  document.write("price.toFixed(2): " + price.toFixed(2) + "<br>");
+    </script>
+
+</body>
+</html>
